@@ -60,9 +60,7 @@ export default function Calculator() {
 
   return (
     <div>
-      <Box m={5} />
       <Container maxWidth="xs">
-        <h1>Calculadora feita com react</h1>
         <div className="wrapper">
             <div className="display">
                 <h1 className="result">{num}</h1>
